@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: none;
+}.main {
+  position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+      /* animation-name: fadeIn;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out; */
+}
+
+
+p{
+  color: white;
+}
+.subtext{
+  color: rgb(149, 149, 149);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 21px;
+
+    display: flex;
+        /* transparan */
+      transform: translateY(100px);
+      opacity: 0;
+
+      /* Animasi */
+      animation: slideUp 1s ease-out forwards;
+      animation-delay: 0.3s;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}.panelnafigasi {
+    position: static;
+    background-color: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}.logo {
+    font-size: 2em;
+    /* color: #9b704f; */
+    color: #ffffff;
+    user-select: none;
+   
+}.navigation a {
+    position: relative;
+    font-size: 1.33em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+.totonanwelcome {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}.gambarbakso {
+  display: flex;
+        /* transparan */
+      transform: translateY(100px);
+      opacity: 0;
+
+      /* Animasi */
+      animation: slideUp 1s ease-out forwards;
+
+  margin-bottom: 0;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 10px 10px #5c1717;
+}.profil {
+  width: 30%;
+  border-radius: 20px;
+
+
+}
+.selamatdatang {
+  width: 100%;
+  font-size: 300%;
+  color: #ffffff;
+  text-shadow: 3px 3px #933030;
+
+    display: flex;
+        /* transparan */
+      transform: translateY(100px);
+      opacity: 0;
+
+      /* Animasi */
+      animation: slideUp 1s ease-out forwards;
+      animation-delay: 0.2s;
+}.textsikit {
+  width: 40%;
+  margin-left: 5%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}.btn {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 3%;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #933030;
+  color: white;
+  font-size: 100%;
+  cursor: pointer;
+
+
+        /*  transparan */
+      transform: translateY(100px);
+      opacity: 0;
+
+      /* Animasi */
+      animation: slideUp 1s ease-out forwards;
+      animation-delay: 0.4s;
+}.btn:hover {
+  background-color: #ca4848;
+}
+
+.mainkotakan {
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+  border-radius: 20px;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.perkenalan {
+  width: auto;
+  height: auto;
+  margin-top: 1%;
+  padding: 20px;
+  padding-bottom: 8%;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1%;
+}.profilkedua {
+  width: 18%;
+  border-radius: 100%;
+  margin: 3px;
+}
+
+.keteranganku {
+  margin-top: 30px;
+}
+.tdleft{
+  text-align: left;
+}.tdright{
+  text-align: right;
+}
+
+.organizations {
+  width: 100%;
+  height: auto;
+  transform: skewY(3deg);
+  background-color: #ffdb2a;
+  padding-top: 55px;
+  padding-bottom: 7%;
+}.counterorganizations {
+  transform: skewY(-3deg);
+  color: white;
+  text-align: center;
+  padding-top: 0;
+  padding: 30px;
+  padding-bottom: 0;
+  text-shadow: 4px 4px rgb(100, 100, 100);
+  width: 80%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 15px;
+  text-shadow: 1px 1px white;
+}
+
+.picformagz {
+  width: 20%;
+  border-radius: 15%;
+  box-shadow: 10px 10px rgb(255, 255, 255);
+  margin: 40px;
+  margin-left: 50px;
+}
+.experience {
+  color: black;
+  width: 100%;
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding: 20px;
+  text-align: center;
+}
+.sub {
+  width: 50%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  text-align: left;
+}
+.lomba {
+  text-align: left;
+  padding-left: 2%;
+  align-content: center;
+}
+.judul{
+  margin-left: 20px;
+}
+.logolomba {
+  width: 20%;
+  height: 10%;
+  box-shadow: 5px 5px gray;
+  margin: 10px;
+  border-radius: 10px;
+}
+.horizontal{
+  display: flex;
+  margin-top: 3%;
+}
+.skillpage {
+  width: 100%;
+  height: auto;
+  transform: skewY(-3deg);
+  background-color: #5f1a1a;
+  padding-top: 55px;
+  padding-bottom: 7%;
+align-items: center;
+align-content: center;
+padding-left: 15%;
+padding-right: 15%;
+}
+.counterskillpage {
+  transform: skewY(3deg);
+  color: white;
+  text-align: center;
+  padding-top: 0;
+  padding: 20px;
+  padding-bottom: 0;
+  text-shadow: 4px 4px rgb(100, 100, 100);
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card {
+  background-color: white;
+  width: 25%;
+  height: auto;
+  margin: 5px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  border-radius: 50px;
+  padding: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  box-shadow: 5px 5px gray;
+}
+.judulskill {
+  color: black;
+  text-shadow: none;
+}
+.card2 {
+  background-color: white;
+  width: 25%;
+  height: auto;
+  margin: 5px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  border-radius: 50px;
+  padding: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  box-shadow: 5px 5px gray;
+}
+.card3 {
+  background-color: white;
+  width: auto;
+  height: auto;
+  margin: 3px;
+  border-radius: 50px;
+  padding-right: 2%;
+  padding-left: 2%;
+  text-align: center;
+  align-content: center;
+  box-shadow: 3px 3px gray;
+}.listdot {
+  list-style-type: disc;
+  color: black;
+  text-shadow: none;
+  font-size: 1.2em;
+}
+.judulskill2 {
+  color: black;
+  text-shadow: none;
+}
+.ketskill {
+  text-align: center;
+  color: black;
+  text-shadow: none;
+}
+
+.motivationpage {
+  width: 100%;
+  height: auto;
+  margin-top: 1%;
+  padding-top: 55px;
+  padding-bottom: 7%;
+align-items: center;
+align-content: center;
+padding-left: 15%;
+padding-right: 15%;
+}
+.motivasi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.namadankutipan {
+  align-content: center;
+  margin-left: 3%;
+  width: auto;
+}
+.kutipan{
+  width: 100%;
+  color: rgb(149, 149, 149);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  line-height: 25px;
+        /* transparan */
+      transform: translateY(100px);
+      opacity: 0;
+
+      /* Animasi */
+      animation: slideUp 1s ease-out forwards;
+      animation-delay: 0.4s;
+}
+.profilmotivasi {
+  border-radius: 50%;
+  width: 25%;
+  height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+}::-webkit-scrollbar-track {     
+    background: none;    
+}::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius:10px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+    @keyframes slideUp {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    color: white;
+}.fa {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
